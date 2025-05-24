@@ -1,0 +1,5 @@
+{
+    "base_web_url": "https://staging.your-webapp-under-test.com",
+    "base_api_url": "https://staging.your-api-under-test.com/api/v1",
+    "headless": true
+}
