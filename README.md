@@ -4,8 +4,8 @@ A robust and scalable Python framework for Web (Selenium) and API (Requests) tes
 
 **Showcasing:**
 
-- Web UI testing for **SauceDemo** (`https://www.saucedemo.com/`)
-- API testing for **Restful-booker** (`https://restful-booker.herokuapp.com/`), including authentication.
+- Web UI testing for **SauceDemo** ([https://www.saucedemo.com/](https://www.saucedemo.com/))
+- API testing for **Restful-booker** ([https://restful-booker.herokuapp.com/](https://restful-booker.herokuapp.com/)), including authentication.
 
 ## Core Principles
 
@@ -27,24 +27,30 @@ A robust and scalable Python framework for Web (Selenium) and API (Requests) tes
 1. **Clone the Repository:**
 
   ```bash
-    git clone <your-repo-url> # This will create a 'pytest-web-api-testing-framework' directory
-    cd pytest-web-api-testing-framework
-    ```
+  git clone <your-repo-url> # This will create a 'pytest-web-api-testing-framework' directory
+  cd pytest-web-api-testing-framework
+  ```
 
 2. **Create and Activate a Virtual Environment (Recommended):**
-  - On macOS/Linux:
+
+- On macOS/Linux:
+
     ```bash
     python3 -m venv venv
     source venv/bin/activate
     ```
-  - On Windows:
+
+- On Windows:
+
     ```bash
     python -m venv venv
     .\venv\Scripts\activate
     ```
+
   *(You should see `(venv)` at the beginning of your command prompt.)*
 
 3. **Install Dependencies:**
+
   ```bash
   pip install -r requirements.txt
   ```
@@ -161,7 +167,7 @@ This framework uses Pytest as its test runner.
 The framework is organized for separation of concerns and maintainability.
 
 ```
-pytest-web-api-testing-framework//
+pytest-web-api-testing-framework/
 ├── .github/
 │   └── workflows/
 │       └── ci.yml
@@ -216,7 +222,7 @@ pytest-web-api-testing-framework//
 ### Key Components
 
 - **`config/`**: Manages all external configurations, including URLs, browser settings, and credentials. Uses `.env` for sensitive data.
-- **`src/base/`**: Foundational classes. `DriverFactory` provides WebDriver instances. `WebBase` offers common Selenium interactions. `APIBase` provides common API methods and authentication.
+- **`src/base/`**: Foundational classes. `driver_factory.py` provides WebDriver instances. `web_base.py` offers common Selenium interactions. `api_base.py` provides common API methods and authentication.
 - **`src/pages/`**: Page Object Model (POM) for web UI interactions.
 - **`src/api_clients/`**: Classes for interacting with specific API services/endpoints.
 - **`src/utils/`**: Shared utilities like logging and test data generation.
