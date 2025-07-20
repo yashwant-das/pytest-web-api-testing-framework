@@ -1,0 +1,5 @@
+2025-07-20 17:12:53,914 - api.test_booking_api - INFO - Starting test_update_booking (test_booking_api.py:121)
+2025-07-20 17:12:53,914 - src.api_clients.booking_service - INFO - Updating booking ID 1162 (booking_service.py:33)
+2025-07-20 17:12:53,914 - src.base.api_base - INFO - API Request: PUT https://restful-booker.herokuapp.com/booking/1162 (api_base.py:100)
+2025-07-20 17:12:53,937 - src.base.api_base - INFO - API Response: 200 for PUT https://restful-booker.herokuapp.com/booking/1162 (api_base.py:121)
+2025-07-20 17:12:53,937 - api.test_booking_api - INFO - test_update_booking for ID 1162 successful. (test_booking_api.py:145)
