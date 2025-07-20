@@ -1,5 +1,0 @@
-2025-07-20 17:45:03,433 - api.test_booking_api - INFO - Starting test_get_booking_details (test_booking_api.py:97)
-2025-07-20 17:45:03,433 - src.api_clients.booking_service - INFO - Requesting details for booking ID: 2286 (booking_service.py:29)
-2025-07-20 17:45:03,433 - src.base.api_base - INFO - API Request: GET https://restful-booker.herokuapp.com/booking/2286 (api_base.py:100)
-2025-07-20 17:45:03,440 - src.base.api_base - INFO - API Response: 200 for GET https://restful-booker.herokuapp.com/booking/2286 (api_base.py:121)
-2025-07-20 17:45:03,444 - api.test_booking_api - INFO - test_get_booking_details for ID 2286 successful. (test_booking_api.py:118)
