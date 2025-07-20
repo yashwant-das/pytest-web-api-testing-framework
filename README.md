@@ -55,12 +55,6 @@ A robust and scalable Python framework for Web (Selenium) and API (Requests) tes
   pip install -r requirements.txt
   ```
 
-  If there's a `requirements-dev.txt` for development tools:
-
-  ```bash
-  pip install -r requirements-dev.txt
-  ```
-
 4. **Set Up Environment Variables:**
 
   ```bash
@@ -174,7 +168,6 @@ pytest-web-api-testing-framework/
 ├── .gitignore
 ├── README.md
 ├── requirements.txt
-├── requirements-dev.txt
 ├── pytest.ini
 ├── pyproject.toml
 ├── .pre-commit-config.yaml

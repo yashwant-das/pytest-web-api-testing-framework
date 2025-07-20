@@ -1,5 +1,3 @@
-import os
-
 import requests
 
 from src.utils.logger import get_logger
@@ -80,8 +78,10 @@ class APIBase:
         # For Restful-booker, if a token exists, it's often sent via a Cookie header for PUT/DELETE
         # The requests.Session should handle cookies automatically if set via response.
         # However, Restful-booker specifically looks for 'Cookie: token=...' or an Auth header.
-        # Let's ensure the token is in headers if needed explicitly by Restful-booker style for PUT/PATCH/DELETE.
-        # For many APIs, a Bearer token is more common: request_headers["Authorization"] = f"Bearer {self.auth_token}"
+        # Let's ensure the token is in headers if needed explicitly by Restful-booker style
+        # for PUT/PATCH/DELETE.
+        # For many APIs, a Bearer token is more common:
+        # request_headers["Authorization"] = f"Bearer {self.auth_token}"
         if requires_auth and self.auth_token:
             # Restful-booker PUT/PATCH/DELETE can use Basic Auth OR Token in Cookie or Auth header
             # Using the token in an "Authorization: Bearer <token>" is a common pattern,
