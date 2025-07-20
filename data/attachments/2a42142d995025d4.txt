@@ -1,5 +1,0 @@
-2025-07-20 17:45:03,715 - api.test_booking_api - INFO - Starting test_create_booking (test_booking_api.py:66)
-2025-07-20 17:45:03,716 - src.api_clients.booking_service - INFO - Creating booking with data: Stacy (booking_service.py:20)
-2025-07-20 17:45:03,716 - src.base.api_base - INFO - API Request: POST https://restful-booker.herokuapp.com/booking (api_base.py:100)
-2025-07-20 17:45:03,722 - src.base.api_base - INFO - API Response: 200 for POST https://restful-booker.herokuapp.com/booking (api_base.py:121)
-2025-07-20 17:45:03,728 - api.test_booking_api - INFO - test_create_booking successful. Booking ID: 2289 (test_booking_api.py:93)
