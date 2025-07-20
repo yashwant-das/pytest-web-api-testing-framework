@@ -1,5 +1,8 @@
 name: Python CI Tests
 
+permissions:
+  contents: write
+
 on:
   push:
     branches: [ main, master, develop ] # Or just [ main ] if that's your primary branch
