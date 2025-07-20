@@ -1,5 +1,0 @@
-2025-07-20 17:51:39,564 - api.test_booking_api - INFO - Starting test_get_booking_details (test_booking_api.py:97)
-2025-07-20 17:51:39,564 - src.api_clients.booking_service - INFO - Requesting details for booking ID: 752 (booking_service.py:29)
-2025-07-20 17:51:39,564 - src.base.api_base - INFO - API Request: GET https://restful-booker.herokuapp.com/booking/752 (api_base.py:100)
-2025-07-20 17:51:39,627 - src.base.api_base - INFO - API Response: 200 for GET https://restful-booker.herokuapp.com/booking/752 (api_base.py:121)
-2025-07-20 17:51:39,630 - api.test_booking_api - INFO - test_get_booking_details for ID 752 successful. (test_booking_api.py:118)
