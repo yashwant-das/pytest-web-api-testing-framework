@@ -1,5 +1,7 @@
 # pytest-web-api-testing-framework
 
+[![Python CI Tests](https://github.com/yashwant-das/pytest-web-api-testing-framework/actions/workflows/ci.yml/badge.svg)](https://github.com/yashwant-das/pytest-web-api-testing-framework/actions/workflows/ci.yml)
+
 A robust and scalable Python framework for Web (Selenium) and API (Requests) testing, built with Pytest. Designed for clarity, maintainability, and ease of extension.
 
 **Showcasing:**
@@ -155,6 +157,19 @@ This framework uses Pytest as its test runner.
     ```bash
     allure open reports/allure-report
     ```
+
+## CI/CD Test Results
+
+The test results are automatically published to GitHub Pages after each CI/CD run. You can view them at:
+
+**🔗 [Live Test Reports](https://yashwant-das.github.io/pytest-web-api-testing-framework/)**
+
+The automated CI/CD pipeline:
+
+- Runs tests on multiple Python versions (3.9, 3.10, 3.11)
+- Generates comprehensive Allure reports
+- Automatically deploys reports to GitHub Pages
+- Maintains test history for trend analysis
 
 ## Framework Architecture & Directory Structure
 
