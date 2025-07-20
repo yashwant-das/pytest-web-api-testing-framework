@@ -1,0 +1,1 @@
+[{"values":["chrome"],"name":"Browser"},{"values":["https://www.saucedemo.com"],"name":"BaseWebURL"},{"values":["https://restful-booker.herokuapp.com"],"name":"BaseApiURL"},{"values":["ci"],"name":"TestEnvironment"},{"values":["https://yashwant-das.github.io/pytest-web-api-testing-framework"],"name":"URL"}]
