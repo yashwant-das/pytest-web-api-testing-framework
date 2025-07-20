@@ -1,0 +1,5 @@
+2025-07-20 18:02:52,703 - api.test_booking_api - INFO - Starting test_create_booking (test_booking_api.py:66)
+2025-07-20 18:02:52,704 - src.api_clients.booking_service - INFO - Creating booking with data: Ariel (booking_service.py:20)
+2025-07-20 18:02:52,704 - src.base.api_base - INFO - API Request: POST https://restful-booker.herokuapp.com/booking (api_base.py:100)
+2025-07-20 18:02:52,710 - src.base.api_base - INFO - API Response: 200 for POST https://restful-booker.herokuapp.com/booking (api_base.py:121)
+2025-07-20 18:02:52,716 - api.test_booking_api - INFO - test_create_booking successful. Booking ID: 962 (test_booking_api.py:93)
